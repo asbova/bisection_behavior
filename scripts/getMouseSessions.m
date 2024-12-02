@@ -1,0 +1,13 @@
+function [MSN, group]  = getMouseSessions()
+
+MSN = {'Bisection_SLLR', 'Bisection_LLSR', 'BisectionTest_SLLR', 'BisectionTest_LLSR'};
+
+% % Training Behavior
+
+% group.TRAIN = {...  
+%     {'11/06/24'; 'TEST1'} ...   
+%     };
+
+group.TEST = {...    
+    {'11/18/24'; 'DANLIN'} ...   
+    };
